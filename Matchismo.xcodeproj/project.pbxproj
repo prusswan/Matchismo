@@ -91,6 +91,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3CA3918619DE7FD700B4C2AD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3CA3917A19DE4D6900B4C2AD /* Card.h */,
+				3CA3917B19DE4D6900B4C2AD /* Card.m */,
+				3CA3917D19DE526F00B4C2AD /* Deck.h */,
+				3CA3917E19DE526F00B4C2AD /* Deck.m */,
+				3CA3918019DE5A5F00B4C2AD /* PlayingCard.h */,
+				3CA3918119DE5A5F00B4C2AD /* PlayingCard.m */,
+				3CA3918319DE60BC00B4C2AD /* PlayingCardDeck.h */,
+				3CA3918419DE60BC00B4C2AD /* PlayingCardDeck.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
 		3CEFCAB119DD75B0000B1E05 = {
 			isa = PBXGroup;
 			children = (
@@ -124,19 +139,12 @@
 		3CEFCAC319DD75B0000B1E05 /* Matchismo */ = {
 			isa = PBXGroup;
 			children = (
+				3CA3918619DE7FD700B4C2AD /* Model */,
 				3CEFCACF19DD75B0000B1E05 /* Main.storyboard */,
 				3CEFCAD219DD75B0000B1E05 /* CardGameViewController.h */,
 				3CEFCAD319DD75B0000B1E05 /* CardGameViewController.m */,
 				3CEFCAD519DD75B0000B1E05 /* Images.xcassets */,
 				3CEFCAC419DD75B0000B1E05 /* Supporting Files */,
-				3CA3917A19DE4D6900B4C2AD /* Card.h */,
-				3CA3917B19DE4D6900B4C2AD /* Card.m */,
-				3CA3917D19DE526F00B4C2AD /* Deck.h */,
-				3CA3917E19DE526F00B4C2AD /* Deck.m */,
-				3CA3918019DE5A5F00B4C2AD /* PlayingCard.h */,
-				3CA3918119DE5A5F00B4C2AD /* PlayingCard.m */,
-				3CA3918319DE60BC00B4C2AD /* PlayingCardDeck.h */,
-				3CA3918419DE60BC00B4C2AD /* PlayingCardDeck.m */,
 			);
 			path = Matchismo;
 			sourceTree = "<group>";
